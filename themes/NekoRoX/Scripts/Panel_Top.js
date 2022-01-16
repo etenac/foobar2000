@@ -21,7 +21,7 @@ var g_component_scrobble = _.cc('foo_scrobble');
 
 /** @type {Object<string, IGdiFont>} */
 var g_top_panel_fonts = {
-    info: gdi.Font('Segoe Ui Semibold', 14)
+    info: gdi.Font('Segoe Ui Semibold', 32) //14
 };
 
 /** @type {Object<string, number>} */
@@ -143,8 +143,8 @@ function TopPanel() {
         // Logo
         if (g_properties.show_logo) {
             var logo_x = cur_x;
-            var logo_w = 16;
-            var logo_y = Math.floor((this.h - logo_w) / 2);
+            var logo_w = 32;//16;
+            var logo_y = Math.floor((this.h - logo_w) / 2) + 3;
 
             var fb2k_logo = gdi.Image(fb.FoobarPath + 'themes\\' + g_theme.folder_name + '\\Images\\fooLogo.png');
             gr.SetInterpolationMode(InterpolationMode.HighQualityBicubic);
@@ -160,7 +160,8 @@ function TopPanel() {
             var info_w = this.w - (cur_x - this.x) - (10 + right_pad);
             var info_h = this.h;
 
-            var info_query = "[%tracknumber%. ][%title%] ['('%length%')'][  \u25AA  %album artist%][  \u25AA  %album%]";
+            //var info_query = "[%tracknumber%. ][%title%] ['('%length%')'][  \u25AA  %album artist%][  \u25AA  %album%]";
+            var info_query = "[%album artist%][  \u25AA  %album% '('$left(%date%,4)')'][  \u25AA  %tracknumber%. ][%title%] ['('%length%')']";
             var info_text = (fb.IsPlaying ? _.tfe(info_query) : _.tf(info_query, metadb));
 
             var info_format = StringFormat();
@@ -303,10 +304,10 @@ function TopPanel() {
 
         var button_count = 5;
 
-        var y = 5;
+        var y = wh/2 - 14;
         var w = 32;
         var h = w;
-        var p = 5;
+        var p = 10;//5
         var x = ww - w * button_count - p * (button_count - 1) - 10;
         right_pad = ww - x - 5;
 
@@ -333,8 +334,8 @@ function TopPanel() {
     }
 
     function create_button_images() {
-        var font_guifx = gdi.Font(g_guifx.name, 16);
-        var font_awesome = gdi.Font('FontAwesome', 16);
+        var font_guifx = gdi.Font(g_guifx.name, 24);
+        var font_awesome = gdi.Font('FontAwesome', 24);
 
         var default_ico_colors =
             [

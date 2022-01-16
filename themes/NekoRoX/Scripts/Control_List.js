@@ -18,7 +18,7 @@ g_properties.add_properties(
         scrollbar_bottom_pad: ['user.scrollbar.pad.bottom', 3],
         scrollbar_w:          ['user.scrollbar.width', utils.GetSystemMetrics(2)],
 
-        row_h: ['user.row.height', 20],
+        row_h: ['user.row.height', 40],//20],
 
         scroll_pos: ['system.scrollbar.position', 0]
     }
@@ -27,6 +27,7 @@ g_properties.add_properties(
 // Fixup properties
 (function() {
     g_properties.row_h = Math.max(10, g_properties.row_h);
+    g_properties.row_h=40;
     if (!_.isFinite(g_properties.scroll_pos) || g_properties.scroll_pos < 0) {
         g_properties.scroll_pos = 0;
     }

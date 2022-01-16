@@ -78,26 +78,27 @@ var g_drop_effect = {
 };
 
 /** @type {Object<string, IGdiFont>} */
+var fontBase = 24;  //12
 var g_pl_fonts = {
-    title_normal:   gdi.Font('Segoe Ui', 12),
-    title_selected: gdi.Font('Segoe Ui Semibold', 12),
-    title_playing:  gdi.Font('Segoe Ui Semibold', 12),
+    title_normal:   gdi.Font('Segoe Ui', fontBase),
+    title_selected: gdi.Font('Segoe Ui Semibold', fontBase),
+    title_playing:  gdi.Font('Segoe Ui Semibold', fontBase),
 
-    artist_normal:          gdi.Font('Segoe Ui Semibold', 18),
-    artist_playing:         gdi.Font('Segoe Ui Semibold', 18, g_font_style.underline),
-    artist_normal_compact:  gdi.Font('Segoe Ui Semibold', 15),
-    artist_playing_compact: gdi.Font('Segoe Ui Semibold', 15, g_font_style.underline),
+    artist_normal:          gdi.Font('Segoe Ui Semibold', fontBase+6),
+    artist_playing:         gdi.Font('Segoe Ui Semibold', fontBase+6, g_font_style.underline),
+    artist_normal_compact:  gdi.Font('Segoe Ui Semibold', fontBase+3),
+    artist_playing_compact: gdi.Font('Segoe Ui Semibold', fontBase+3, g_font_style.underline),
 
-    playcount:      gdi.Font('Segoe Ui', 9),
-    album:          gdi.Font('Segoe Ui Semibold', 15),
-    date:           gdi.Font('Segoe UI Semibold', 16, g_font_style.bold),
-    date_compact:   gdi.Font('Segoe UI Semibold', 15),
-    info:           gdi.Font('Segoe Ui', 11),
-    cover:          gdi.Font('Segoe Ui Semibold', 11),
-    rating_not_set: gdi.Font('Segoe Ui Symbol', 14),
-    rating_set:     gdi.Font('Segoe Ui Symbol', 16),
+    playcount:      gdi.Font('Segoe Ui', fontBase-3),
+    album:          gdi.Font('Segoe Ui Semibold', fontBase+3),
+    date:           gdi.Font('Segoe UI Semibold', fontBase+4, g_font_style.bold),
+    date_compact:   gdi.Font('Segoe UI Semibold', fontBase+3),
+    info:           gdi.Font('Segoe Ui', fontBase-1),
+    cover:          gdi.Font('Segoe Ui Semibold', fontBase-1),
+    rating_not_set: gdi.Font('Segoe Ui Symbol', fontBase+2),
+    rating_set:     gdi.Font('Segoe Ui Symbol', fontBase+4),
 
-    dummy_text: gdi.Font('Segoe Ui', 16)
+    dummy_text: gdi.Font('Segoe Ui', fontBase+4)
 };
 
 /** @type {Object<string, number>} */
@@ -637,7 +638,7 @@ function PlaylistPanel(x, y) {
      * @const
      * @type {number}
      */
-    var playlist_info_h = 24;
+    var playlist_info_h = 40;//24;
     /**
      * @const
      * @type {number}
@@ -4283,7 +4284,7 @@ function Row(x, y, w, h, metadb, idx, cur_playlist_idx_arg) {
         //---> TITLE init
         if (_.isNil(title_text)) {
             var track_num_query = '$if(%tracknumber%,%tracknumber%,$pad_right(' + (this.idx_in_header + 1) + ',2,0))';
-            var title_query = track_num_query + '.  %title%';
+            var title_query = track_num_query + '. %title%';
             title_text = (fb.IsPlaying && this.is_playing && is_radio) ? _.tfe(title_query) : _.tf(title_query, metadb);
         }
 
@@ -4439,7 +4440,7 @@ function Row(x, y, w, h, metadb, idx, cur_playlist_idx_arg) {
      * @const
      * @type {number}
      */
-    var duration_max_w = 50;
+    var duration_max_w = 100;//50;
 
     /**
      * @const
