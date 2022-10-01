@@ -1,0 +1,9 @@
+﻿>> Album rating: 5 <<  Add to Custom List
+
+Genre: Pop/Rock, Black Metal, Progressive Metal, Heavy Metal
+
+Album Moods: Atmospheric, Brooding, Sophisticated, Ambitious, Intense, Ominous, Provocative, Uncompromising, Anguished/Distraught, Complex, Ethereal, Menacing, Tense/Anxious, Visceral, Volatile, Gloomy, Suffocating, Exciting
+
+Album Themes: Anger/Hostility, Death, Despair
+
+Release Date: November 22, 2010

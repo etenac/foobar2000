@@ -1,0 +1,9 @@
+﻿>> Album rating: 4 <<  Add to Custom List
+
+Genre: Pop/Rock, Alternative Metal, Progressive Metal, Alternative/Indie Rock, Experimental Rock, Heavy Metal
+
+Album Moods: Aggressive, Brooding, Dramatic, Somber, Suffocating, Angry, Harsh, Nihilistic, Urgent, Angst-Ridden, Bleak, Complex, Hostile, Reflective, Witty, Intense, Paranoid, Provocative
+
+Album Themes: Exercise/Workout, Imagination, Introspection, Late Night, Long Walk, Loss/Grief, Meditation, Reflection, Solitude
+
+Release Date: May 2, 2006

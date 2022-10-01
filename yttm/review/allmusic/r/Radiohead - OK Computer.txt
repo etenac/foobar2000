@@ -1,0 +1,9 @@
+﻿>> Album rating: 5 <<  Add to Custom List
+
+Genre: Pop/Rock, Alternative Pop/Rock, Alternative/Indie Rock, Britpop, Indie Electronic
+
+Album Moods: Angst-Ridden, Earnest, Epic, Gloomy, Paranoid, Plaintive, Somber, Theatrical, Wintry, Aggressive, Brooding, Eerie, Melancholy, Nocturnal, Poignant, Reflective
+
+Album Themes: Autumn, Illness, Late Night, Night Driving, Regret, Imagination, Introspection, Solitude, Stay in Bed
+
+Release Date: July 1, 1997

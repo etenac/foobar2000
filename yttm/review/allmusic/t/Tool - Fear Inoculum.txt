@@ -1,0 +1,9 @@
+﻿>> Album rating: 4.5 <<  Add to Custom List
+
+Genre: Pop/Rock, Alternative Metal, Heavy Metal, Experimental Rock, Progressive Metal, Alternative/Indie Rock
+
+Album Moods: Ambitious, Complex, Dark, Elaborate, Enigmatic, Epic, Nihilistic, Powerful, Strong, Technical, Bleak, Brooding, Eccentric, Heavy, Hostile, Intense, Mighty, Provocative, Sprawling, Uncompromising, Angst-Ridden, Cathartic, Druggy, Feverish, Indulgent, Menacing, Mystical, Ominous, Poignant, Reflective, Sophisticated, Tight, Visceral, Anguished/Distraught, Cynical/Sarcastic, Dramatic, Fierce, Harsh, Humorous, Hypnotic, Improvisatory, Lyrical, Majestic, Malevolent, Nocturnal, Spiritual, Thrilling, Unsettling, Difficult, Fiery, Ironic, Sacred, Urgent
+
+Album Themes: Catharsis, Fantasy, Imagination, Pain, World View, Escape, Introspection, Politics/Society, Conflict, Despair, Fear, Meditation, Reflection, Death, Destiny, Feeling Blue, Hanging Out, Late Night, Solitude, Struggle, Awareness, Disappointment, Loss/Grief
+
+Release Date: August 30, 2019

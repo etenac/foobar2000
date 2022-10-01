@@ -1,0 +1,9 @@
+﻿>> Album rating: 5 <<  Add to Custom List
+
+Genre: Pop/Rock, Alternative Pop/Rock, Alternative/Indie Rock, Indie Electronic, Experimental Rock
+
+Album Moods: Atmospheric, Austere, Bleak, Cerebral, Cold, Complex, Gloomy, Nocturnal, Somber, Suffocating, Angst-Ridden, Brooding, Clinical, Detached, Eerie, Ethereal, Hypnotic, Insular, Intense, Light, Melancholy, Ominous, Paranoid, Plaintive, Reflective, Sophisticated, Tense/Anxious, Wintry
+
+Album Themes: Background Music, Feeling Blue, Imagination, Introspection, Late Night, Reflection, Solitude
+
+Release Date: October 2, 2000

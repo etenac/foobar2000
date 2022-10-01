@@ -1,0 +1,9 @@
+﻿>> Album rating: 3.5 <<  Add to Custom List
+
+Genre: Pop/Rock, Alternative Pop/Rock, Alternative/Indie Rock, Indie Electronic, Experimental Rock
+
+Album Moods: Insular, Searching, Suffocating, Complex, Provocative, Aggressive, Bleak, Brooding, Cerebral, Eerie, Gloomy, Hypnotic, Melancholy, Nocturnal, Theatrical, Atmospheric, Bittersweet, Detached, Dramatic, Intense, Literate, Ominous, Reflective, Tense/Anxious
+
+Album Themes: Heartache, Imagination, Introspection, Rainy Day, Solitude, Background Music, Feeling Blue, Late Night, Reflection
+
+Release Date: June 5, 2001
